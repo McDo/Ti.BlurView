@@ -133,4 +133,11 @@
     return filter;
 }
 
+-(GPUImageGrayscaleFilter*) buildGrayscale {
+    
+    GPUImageGrayscaleFilter *filter = [[GPUImageGrayscaleFilter alloc] init];
+    return filter;
+    
+}
+
 @end

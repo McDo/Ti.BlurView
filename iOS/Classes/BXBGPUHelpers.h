@@ -12,6 +12,7 @@
 #import "GPUImageGaussianBlurFilter.h"
 #import "GPUImageSaturationFilter.h"
 #import "GPUImageBoxBlurFilter.h"
+#import "GPUImageGrayscaleFilter.h"
 
 @interface BXBGPUHelpers : NSObject{
 @private
@@ -22,5 +23,6 @@
 -(GPUImageiOSBlurFilter*) buildIOSBlur:(NSDictionary*)options;
 -(GPUImageBoxBlurFilter*) buildBoxBlur:(NSDictionary*)options;
 -(GPUImageGaussianBlurFilter*) buildGaussianBlur:(NSDictionary*)options;
+-(GPUImageGrayscaleFilter*) buildGrayscale;
 
 @end
