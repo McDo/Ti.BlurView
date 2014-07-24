@@ -75,12 +75,12 @@ The GPUBlurImageView allows you to implement a blur effect similar to that used 
 
 To learn more about the GPUBlurImageView please read the documentation [here](https://github.com/benbahrenburg/Ti.BlurView/blob/master/iOS/documentation/GPUBlurImageView.md).
 
-<h1>**NEW**</h1>
+<h2>**NEW**</h2>
 <h3>Grayscale GPUImageView</h3>
 
 Platform Supported: <b>iOS</b>
 
-The GPUBlurGrayscaleView applies the <b><i>GPUImageGrayscaleFilter</i></b> to your image. Simply '<b><i>createGPUGrayscleView</i></b>' from the module, specify the '<b><i>image</i></b>' path, and set the '<b><i>grayscale</i></b>' property to 'true', image should be converted to black-and-white. 
+The GPUBlurGrayscaleView applies the <b><i>GPUImageGrayscaleFilter</i></b> to your image. Simply <b><i>createGPUGrayscleView</i></b> from the module, specify the <b><i>image</i></b> path, and set the <b><i>grayscale</i></b> property to <b><i>true</i></b>, image should be converted to black-and-white. 
 
 <h2>Doing a blur without the view</h2>
 
